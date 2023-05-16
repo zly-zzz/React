@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  margin: 16px 0;
+  padding: 6px;
+  background-color: #FCBF49;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  height: 106px;
+}
+.content {
+  flex: auto;
+  text-align: center;
+  font-weight: bold;
+}
+.desc {
+  color: #194B49;
+  font-size: 16px;
+}
+.time {
+  color: #D62828;
+  font-size: 16px;
+}

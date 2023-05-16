@@ -1,0 +1,20 @@
+.item {
+  display: flex;
+  margin: 16px 0;
+  padding: 6px;
+  background-color: #FCBF49;
+  height: 106px;
+}
+.content {
+  flex: auto;
+  text-align: center;
+  font-weight: bold;
+}
+.desc {
+  color: #194B49;
+  font-size: 16px;
+}
+.time {
+  color: #D62828;
+  font-size: 16px;
+}

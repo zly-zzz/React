@@ -1,0 +1,41 @@
+.conformModal {
+  width: 400px;
+  height: 200px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+.conformText {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  color: red;
+}
+.conformButton {
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+}
+.conformButton button {
+  width: 80px;
+  margin: 0 10px;
+  border: none;
+  background-color: #EAE287;
+  cursor: pointer;
+}
+.conformButton .okButton {
+  background-color: red;
+  color: #fff;
+}
+.conformButton button:hover{
+  background-color: #7ce07c;
+}
